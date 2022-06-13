@@ -1,0 +1,138 @@
+body{
+     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, #DFE9F3 0%, #ffffff 100%);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title1{
+    text-transform: uppercase;
+    border-left: solid;
+    border-right: solid;
+}
+
+/**Columnas**/
+
+.columnas{
+margin: 5px;
+display: grid;
+grid-template-columns: 45% 45%;
+column-gap: 100px;
+}
+
+.columna-1{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.columna-1 h2{
+margin: 20px 160px;
+border-bottom: solid;
+}
+
+.columna-2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.columna-2 h2{
+    border-bottom: solid;
+    margin: 20px 160px;
+}
+
+
+/**Barra de busqueda**/
+
+.barra-busqueda{
+    border: 2px solid;
+    margin: 0px 60px 0px 60px;
+ }
+
+ .barra-busqueda a{
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(18, 13, 13);
+ }
+
+ .enlaces{
+    display: flex;
+    justify-content: space-around;
+ }
+
+/**Comentarios**/
+
+ .comentarios{
+     column-gap: 10px;
+     margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33% 33%  33%;
+}
+
+.comentario-cuadro{
+    border: 1.5px solid;
+    border-radius: 10px;
+}
+
+.comentario1{
+    -webkit-box-shadow: 0px 14px 12px -6px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 14px 12px -6px rgba(0,0,0,0.54);
+box-shadow: 0px 14px 12px -6px rgba(0,0,0,0.54);
+}
+
+.comentario2{
+    -webkit-box-shadow: 0px 14px 12px -6px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 14px 12px -6px rgba(0,0,0,0.54);
+box-shadow: 0px 14px 12px -6px rgba(0,0,0,0.54);
+}
+
+.comentario3{
+    -webkit-box-shadow: 0px 14px 12px -6px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 14px 12px -6px rgba(0,0,0,0.54);
+box-shadow: 0px 14px 12px -6px rgba(0,0,0,0.54);
+}
+
+.iconos-user{
+
+}
+
+/**Pie de pagina**/
+
+.ante-ultimo{
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: rgb(172, 172, 172);
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.ante-ultimo h2{
+margin-left: 73px;
+}
+
+.ante-ultimo p{
+    margin-left: 100px;
+    }
+
+.pie-pagina{
+    background-color: rgb(12, 97, 255);
+    display: flex;
+    background-size: cover;
+    padding-bottom: 0px;
+}
+
+ .maxi{
+     margin-top: 25px;
+    margin-left: 25px;
+     color: black;
+ }
+
+ .deha{
+    margin-top: 25px;
+     color: aliceblue;
+ }
+
+ 
